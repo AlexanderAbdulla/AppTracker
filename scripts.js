@@ -6,7 +6,7 @@ var signatures  = []
 2) Populates index html
 */
 function loadIndex(){
-    fetch('test.json')
+    fetch('https://site.fortinet.com/files/test.json')
     .then(
     function(response) {
         //Checks if there is an error via the response code and console logs it        
